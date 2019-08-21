@@ -1,0 +1,11 @@
+var a = 1;
+var shit = "shit";
+var c = 45;
+var a;
+console.log(a, typeof a);
+console.log(shit, typeof shit);
+console.log(c, typeof c);
+
+
+var text = prompt('Ваше имя?');
+alert(text);
