@@ -1,0 +1,19 @@
+var text = "text";
+var number = 1;
+if(text > number){
+  alert(text);
+}
+else{
+  alert(number);
+}
+
+
+
+ var first = prompt('Первое значение');
+ var second = prompt('второе значение?');
+ if(first > second){
+   alert(first);
+ }
+ else{
+   alert(second);
+ }
