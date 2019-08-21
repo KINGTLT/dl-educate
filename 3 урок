@@ -1,0 +1,20 @@
+1
+var user = {
+  name:'',
+  age:''
+}
+
+user.name = prompt('', 'Имя');
+user.age = prompt('', 'Возраст');
+
+console.log(user);
+
+2
+
+var arr = [];
+
+for(var i = 0; i < 5; i++ ){
+  arr[i] = prompt("Ввести число", +i);
+}
+
+console.log(arr.reverse());
